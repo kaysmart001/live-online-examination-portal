@@ -1,0 +1,730 @@
+
+
+
+
+
+
+
+
+<script>
+    var __rd_url = "https://myclass.lpu.in/";
+    if (window.parent !== window) {
+        // in iframe or frame
+        if (!window.top.location.hostname.endsWith('.codetantra.com')) {
+            // someone embedded us outside codetantra
+            window.top.location.href = window.location.href;
+        } else if (window.parent.location.pathname === '/secure/tla/jnr.jsp') {
+            // parent is jnr
+            window.parent.location.href = window.location.href;
+        } else if (window.parent.location.pathname === '/secure/take-test1.jsp') {
+            // parent is take-test1
+            setTimeout(function() {
+                window.parent.location.reload();
+            }, 2000);
+        }
+    }
+</script>
+
+
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+<link href="/css/bootstrap-latest.css" rel="stylesheet">
+
+<link href="/css/label-style.css" rel="stylesheet">
+<link href="/css/custom-styles.css" rel="stylesheet">
+<!-- <link href="/css/panel.css" rel="stylesheet"> -->
+<link href="/css/bs-docs-side-nav.css" rel="stylesheet">
+<link href="/css/latest_header_styles.css" rel="stylesheet">
+
+<link href="/css/tablesorter/theme.bootstrap.css" rel="stylesheet">
+
+<link href="/css/jquery-ui.css" rel="stylesheet">
+<link href="/css/tablesorter/theme.jui.css" rel="stylesheet">
+<link href="/css/bootstrap-datepicker.css" rel="stylesheet">
+<link href="/css/bootstrap-slider.css" rel="stylesheet">
+
+<link type="text/css" rel="stylesheet" href="/css/alertify-latest.css">
+<link type="text/css" rel="stylesheet" href="/css/select2-latest.css">
+<link type="text/css" rel="stylesheet" href="/css/dataTables.bootstrap4.css">
+<link type="text/css" rel="stylesheet" href="/css/dataTables.fixedColumns.bootstrap4.css">
+<link type="text/css" rel="stylesheet" href="/css/bootstrap-switch-latest.css">
+
+<link type="text/css" rel="stylesheet" href="/css/font-awesome.min.css">
+
+<link type="text/css" rel="stylesheet" href="/css/offline-theme-chrome-indicator.css">
+<link rel="stylesheet" href="/css/mathquill.min.css">
+
+<link type="text/css" rel="stylesheet" href="/css/bootstrap4-toggle.min.css">
+
+
+<!-- <link type="text/css" rel="stylesheet" href="/css/3d/components.css"> -->
+
+<!--<script src="/js/offline.js" type="text/javascript" charset="utf-8"></script>-->
+
+<!-- jQuery -->
+<script src="/js/jquery-latest.js"></script>
+
+<!-- Validate Plugin -->
+<script src="/js/jquery.validate-latest.js"></script>
+
+<!-- Modernizr Plugin -->
+<script src="/js/modernizr-2.6.2.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="/js/bootstrap.bundle.js"></script>
+<script src="/js/bootstrap-notify.js"></script>
+
+
+<script src="/js/jquery-ui-all.js" type="text/javascript" charset="utf-8"></script>
+<script src="/js/d3.js"></script>
+<script src="/js/function-plot.js"></script>
+
+<script src="/js/custom-min/nommoc.min.js"></script>
+
+<script src="/js/common-on-ready-js-methods.js"></script>
+
+<script src="/js/bootstrap-datepicker.js"></script>
+
+<script src="/js/search-table-row-popup.js"></script>
+<script src="/js/bootstrap-slider-latest.js"></script>
+
+<script src="/js/jquery.numeric.js"></script>
+
+<script src="/js/underscore-latest.js"></script>
+
+<script src="/js/hr.js"></script>
+
+<script src="/js/alertify-latest.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="/js/select2-latest.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="/js/bootstrap.touchspin.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="/js/jquery.dataTables.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="/js/dataTables.tableTools.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="/js/dataTables.bootstrap4.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="/js/bootstrap-switch-latest.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="/js/form2object.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="/js/gs/TweenMax.min.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="/js/gs/circular-preloader.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="/js/ace/ace.js" type="text/javascript" charset="utf-8"></script>
+<script src="/js/ace/ext-language_tools.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="/js/bootstrap4-toggle.min.js" type="text/javascript" charset="utf-8"></script>
+
+<script>
+    ace.require("ace/ext/language_tools");
+</script>
+
+<script src="/js/mathquill.min.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+        },
+        svg: {
+            fontCache: 'global'
+        }
+    };
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+<script id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>CodeTantra Teach & Learn Anywhere
+    </title>
+    <script src="/js/moment.js"></script>
+    <script src="/js/jquery.datetimepicker.js"></script>
+    <link href="/css/jquery.datetimepicker.css" rel="stylesheet">
+    <style>
+        #testsPanelDiv a {
+            text-decoration: underline !important;
+            margin: 5px;
+            display: inline-block;
+        }
+
+        .btn {
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+
+<div id="containerDiv">
+    
+
+
+<script src="/js/gs/circular-preloader.js" type="text/javascript" charset="utf-8"></script>
+<script src="/js/gs/TweenMax.min.js" type="text/javascript" charset="utf-8"></script>
+
+
+<script src="/js/custom-min/lg.min.js"></script>
+
+<script>
+    var supportEmail = 'support.myclasses@lpu.co.in';
+    var supportPhone = '[ "01824-517-450"]';
+    supportPhone = JSON.parse(supportPhone);
+    var _ct_cookieId = '5f43bf172c940e0c1b468f8e';
+    var _ct_lid = '11813436.st@lpu.in';
+    var _ct_uname = "Nikhil" ;
+    var _ct_groups = [ { "5f439c6f2c940e0c1b45b16e" : "K18TS"} , { "5f439c6f2c940e0c1b45b16f" : "K18TS-G2"} , { "5f439c6f2c940e0c1b45b172" : "KE109"} , { "5f439c6f2c940e0c1b45b173" : "KE109-G2"} , { "5f439c6f2c940e0c1b45b176" : "KE161"} , { "5f439c6f2c940e0c1b45b177" : "KE161-G2"} , { "5f439c6f2c940e0c1b45b17a" : "KE208"} , { "5f439c6f2c940e0c1b45b17b" : "KE208-G2"} , { "5f43a1782c940e0c1b45f227" : "KM109"} , { "5f43a1782c940e0c1b45f228" : "KM109-G2"} , { "5f5898225ce46c04521ffd2b" : "MOCK101_2.15"} , { "5f5b5cbf5ce46c3d55214183" : "MOCK101_4.13"} , { "5f5f96625ce46c2a64235a62" : "CSE322_MTT1674"} , { "5f608e9871d2180c0fba2be9" : "PEA305_MTT2967"} , { "5f6112ff5ce46c03c670acb3" : "BTY822_MTT1391"} , { "5f6113105ce46c03c670cf27" : "PEV107_MTT3018"} , { "5f61131b5ce46c03c670e3f4" : "INT246_MTT2445"} , { "5f61131d5ce46c03c670e7a6" : "CSE332_MTT1681"} , { "5fb4baf59ab26e0661806fde" : "ETT20211_BTY822_19 Nov 2020_A"}];
+    var forceLocation = false;
+    var isCurrentRoleMember = true;
+    var _ct_chid = '1392';
+</script>
+
+
+<style>
+    li > a {
+        cursor: pointer;
+    }
+    .border-style {
+        line-height: 30px;
+        border: 2px solid gray;
+        padding: 2px;
+        border-radius: 4px;
+    }
+    .alertify-notifier .ajs-message {
+        width:450px;
+        color: white;
+        font-weight: bold;
+    }
+    .alertify-notifier.ajs-right .ajs-message.ajs-visible {
+        right: 450px;
+        top: 50px;
+        border-radius: 6px;
+    }
+    .alertify-notifier .ajs-message.ajs-error {
+        background: red;
+    }
+    .alertify-notifier .ajs-message.ajs-success {
+        background: rgba(92,184,17,.9);
+    }
+    .alertify-notifier .ajs-message.ajs-warning {
+        background: rgb(248, 165, 0);
+    }
+    #supportDialogBody {
+        background-color: cornsilk;
+    }
+    .select2-results__option[aria-selected="true"]{
+        display: none;
+    }
+</style>
+<script>
+    $(function () {
+        'use strict';
+        $('[data-toggle="offcanvas"]').on('click', function () {
+            $('.offcanvas-collapse').toggleClass('open')
+        })
+    })
+</script>
+<!-- Fixed navbar -->
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark d-block" id='cssmenu'>
+    <button class="navbar-toggler py-0 border-0" type="button" data-toggle="offcanvas" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <span class="navbar-brand d-lg-none"><img src="https://s3.ap-south-1.amazonaws.com/ct-client-logos/logos/lovelyprofessionaluniversity" alt="CodeTantra" height="30" style="max-width: 100%;" /></span>
+    <div class="navbar-collapse offcanvas-collapse" id="navbarSupportedContent">
+            
+                
+<ul class="navbar-nav mr-auto">
+    <li class='d-none d-lg-block'>
+        <span class="p-1 d-block">
+             <img src="https://s3.ap-south-1.amazonaws.com/ct-client-logos/logos/lovelyprofessionaluniversity" height="30" alt="Home">
+        </span>
+    </li>
+    <li class="nav-item"><a class="nav-link" href='/secure/home.jsp' style="white-space: nowrap"><i class="fa fa-home"></i><span> Home</span> </a></li>
+    
+    <li class='nav-item dropdown'><a class="nav-link dropdown-toggle" data-toggle="dropdown" href='#' role="menu" aria-haspopup="true" title="Learn anywhere" aria-label="Learn anywhere menu"><span>Learn Anywhere</span></a>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/secure/tla/m.jsp" role="menuitem" title="View meetings" aria-label="Click to view meetings">View Meetings</a></li>
+        </ul>
+    </li>
+</ul>
+            
+            <ul class="navbar-nav ml-md-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"> 11813436.st@lpu.in </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href='/secure/member-profile.jsp'><span>Update Profile</span> </a></li>
+                        
+                    </ul>
+                </li>
+                
+                <li class="nav-item"><a class="nav-link" id="contactHelp" href='#' onclick="openSupportDialog()" role="contentinfo"><span>Support</span> </a></li>
+                <li class="nav-item"><a class="btn btn-sm btn-danger" id="logoutBtn" style="color: white; font-weight: bold; margin-top: 0.25rem; white-space: nowrap " role="button" aria-label="Logout" title="Click to logout"> Logout <i class="fa fa-sign-out" aria-hidden="true"></i> </a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+</nav>
+<script>
+    $(document).attr('cssBodyWidth', 0);
+
+    
+    $(document).ready(function() {
+        initiateSupportPanel(supportEmail, supportPhone);
+        if (forceLocation && !window.lgOverridden) {
+            $(".img-info").html("<b>Note</b> : You can click on the image to view a larger version.");
+            geoLocationCoordinates();
+        }
+
+        setTimeout(function(){
+            if (typeof hideTafPopup != 'undefined' && hideTafPopup) {
+                $('#tafPopupImg').addClass('hide');
+            } else {
+                $('#tafPopupImg').addClass('in');
+            }
+        }, 1000);
+        var $cssmenu = $('#cssmenu');
+        
+
+        $("#logoutBtn").click(function() {
+            logoutClicked();
+        });
+
+        $(".changeRole").click(function() {
+            changeRoleClicked(this);
+        });
+
+    });
+
+    if (alertify) {
+        alertify.set('notifier', 'position', 'top-right');
+    }
+</script>
+
+<div id="pointsModalDialog" class="modal fade" style="z-index: 1060">
+    <div class="modal-dialog">
+        <div class="modal-content hintsDialogContent1">
+            <div class="modal-header hintsDialogHeader">
+                <h5 class="hintsDialogTitle modal-title"><i class="fa fa-cubes" aria-hidden="true"></i> Award Points</h5>
+                <button type="button" class="close" onClick="closePointsDialog()" aria-hidden="true">&times;</button>
+            </div>
+            <div class="modal-body hintsDialogBody" id="hintsDialogBody">
+
+            </div>
+
+            <div class="modal-footer hintsDialogFooter">
+                <a type="button" class="btn btn-warning btn-sm" style='text-decoration:none !important;'  onClick="closePointsDialog()">Close</a>
+
+                <a type="button" class="btn btn-success btn-sm pull-left" style='text-decoration:none !important;'  target='_blank' href='/secure/taf.jsp'><i class="fa fa-users" aria-hidden="true"></i> Invite Friends</a>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+
+</div>
+
+<div id='supportModalDialog' class='modal fade p-0' style='z-index: 1060'>
+    <div class='modal-content border-warning'>
+        <div class='modal-header card-heading bg-warning' style='padding-bottom: 0;'>
+            <span class='w-100'>
+                <h6 class='modal-title supportDialogTitle1' id='contactLabel'><b>Contact Support</b></h6>
+            </span>
+        </div>
+        <div class='modal-body supportDialogBody text-center' id='supportDialogBody'>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="locationDenyDialog" style="margin-top: 8%">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header btn-primary" style="padding: 10px;">
+                <h4 class="modal-title">Instruction to Unblock Access to Location.</h4>
+            </div>
+            <div class="modal-body" style="background: #fcf8e3;">
+                <div>
+                    <ul>
+                        <li><h4>The portal requires permission  to record the location from which it is being accessed, to minimize your account misuse.</h4></li>
+                        <li><h4>Currently the access to location in the browser is <span class="text-danger"><b>blocked</b></span>.</h4></li>
+                        <li><h4>Follow the instruction in the below <a href="/geolocation-settings-for-C-MF-C.html" target='_blank'>
+                            link</a> to unblock access to location details and click on
+                            <span style="color: darkgreen"><b>refresh</b></span> button.</h4></li>
+                        <li><h4>If you already followed the instructions to unblock and it is still showing this dialog, this may be due to occasional network connectivity problems. Please refresh the page in that case.</h4></li>
+                    </ul>
+
+                    <br/>
+                    <div class="text-center">
+                        <div>
+                            <a href="/geolocation-settings-for-C-MF-C.html" target='_blank'><u><h4><b>Link to Unblock</b></h4></u></a>
+                        </div>
+                        <br/>
+                    </div>
+                    <br/>
+                    <div class="text-center">
+
+                        <a id="close" onclick="location.reload()" class="btn btn-success btn-xs" data-toggle="modal" style="padding: 0 25px 0 25px;">
+                            <h5>Refresh</h5>
+                        </a>
+                    </div>
+                    <br/>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="locationPromptDialog" style="margin-top: 8%">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header btn-primary" style="padding: 10px;">
+                <h4 class="modal-title" id="locationFetchTitle">Fetching Location</h4>
+            </div>
+            <div class="modal-body" style="background: #fcf8e3;">
+                <div>
+                    <ul>
+                        <li><h4>The portal requires permission to record the location from which it is being accessed, to minimize your account misuse.</h4></li>
+                        <li id="changeAllowBtnResToBrowser"><h4>Click on <span class="remember-text"></span>
+                            <span><nobr><b class="allow-access-text border-style"></b></nobr></span>
+                            button to access the location, and click on <span style="color: darkgreen"><b>refresh</b></span> button.</h4>
+                        </li>
+                        <div id="showImage"></div><br/><br/>
+                        <div><h4 class="img-info"></h4></div>
+                    </ul>
+                </div>
+                <br/>
+                <div class="text-center">
+
+                    <a id="close" onclick="location.reload()" class="btn btn-success btn-xs" data-toggle="modal" style="padding: 0 25px 0 25px;">
+                        <h5>Refresh</h5>
+                    </a>
+                </div>
+                <br/>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+<!-- scripts used for screen-sharing -->
+<script src="/js/split.min.js"></script>
+<script src="/js/rtcmulticonnection/rtcmulticonnection.min.js"></script>
+<script src="/js/n/socket.io.js"></script>
+<script src="/js/rtcmulticonnection/screen-capturing.js"></script>
+<script src="/js/rtcmulticonnection/adapter-latest.js"></script>
+<style>
+	button,
+	input,
+	select {
+	    font-weight: normal;
+	    padding: 2px 4px;
+	    text-decoration: none;
+	    display: inline-block;
+	    text-shadow: none;
+	    font-size: 16px;
+	    outline: none;
+	}
+	
+	.make-center {
+	    text-align: center;
+	    padding: 5px 10px;
+	}
+
+	video {
+		width: 100% !important;
+	}
+
+	.onlyWebcam video {
+		width: 120% !important;
+		margin-left: 50% !important;
+	}
+
+	.videosContainer {
+		text-align: center;
+	}
+
+	.modal-title {
+		font-size: 16px;
+	}
+
+	.split {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		overflow-y: auto;
+		overflow-x: hidden;
+	}
+
+	.gutter {
+		background-color: transparent;
+		background-repeat: no-repeat;
+		background-position: 50%;
+	}
+
+	.gutter.gutter-horizontal {
+		cursor: col-resize;
+		background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAeCAYAAADkftS9AAAAIklEQVQoU2M4c+bMfxAGAgYYmwGrIIiDjrELjpo5aiZeMwF+yNnOs5KSvgAAAABJRU5ErkJggg==');
+	}
+
+	.gutter.gutter-vertical {
+		cursor: row-resize;
+		background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAFAQMAAABo7865AAAABlBMVEVHcEzMzMzyAv2sAAAAAXRSTlMAQObYZgAAABBJREFUeF5jOAMEEAIEEFwAn3kMwcB6I2AAAAAASUVORK5CYII=');
+	}
+
+	.split.split-horizontal, .gutter.gutter-horizontal {
+		float: left;
+	}
+	
+	a {
+	    text-decoration: none !important;
+	}
+	#splitContainersDivHeader {
+		z-index: 10;
+		border-radius: 5px 5px 0px 0px;
+		color: #fff;
+		padding: 0px;
+		padding-left: 5px;
+	}
+	#splitContainersDiv {
+		position: absolute;
+		z-index: 1800;
+		padding : 0;
+	}
+</style>
+<div id="containerDiv">
+	    <div class="make-center">
+		    <a id="chromeExtension" href="https://chrome.google.com/webstore/detail/codetantra-collaborative/nlmcedcocipdacdejmajkaaijoaidoef" target="_blank"></a>
+		    <!-- local/remote videos container -->
+			<div id="videos-container" class="videosContainer"></div>
+			<div class="modal fade" id="ssInstructionDialogBeforeSSInit" style="z-index: 9999;">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header btn-primary" style="padding: 10px;">
+							<h4 class="modal-title">Instructions to start Screen Sharing on CodeTantra Platform</h4>
+						</div>
+						<div class="modal-body" style="background: #fcf8e3;">
+							<div id="chrome-instructions">
+								<p style="font-size: 14px">After clicking proceed button a new tab will open.<br>
+									On the new tab choose the window you want to share in the <span style="border-style: solid; border-width: 1px; border-radius: 3px; padding: 1px 5px;">Permission</span> dialogue as shown with red border in below screen-shot and
+								click on the <span style="border-style: solid; border-width: 1px; border-radius: 3px; padding: 1px 5px;">Share</span>
+								button.</p>
+								<hr>
+								<img id="chrome-ss" src="/images/chrome-ss.png" style="width: 100%" alt="screen sharing instructions screen-shot">
+								<hr>								 
+								<span class="btn btn-success btn-play btn-lg in proceedBtn">Proceed
+									<span class="fa-stack fa-lg"><i class="fa fa-play fa-stack-1x fa-inverse"></i></span>
+								</span>
+							</div>
+							<div id="firefox-instructions">
+								<p style="font-size: 14px">CodeTantra support team is trying to help you.<br>
+								Select <span style="border-style: solid; border-width: 1px; border-radius: 3px; padding: 1px 5px; margin: 0 2px 2px">Entire Screen</span>
+									under the <b>Screen to share</b> dropdown and <br>
+								click on the <span style="border-style: solid; border-width: 1px; border-radius: 3px; padding: 1px 5px; margin: 0 2px">Allow</span>
+								button as highlighted with red border<br>
+								in the below screen-shot to start screen sharing when prompted.</p>
+								<hr>
+								<img id="firefox-ss" src="/images/firefox-ss.png" style="width: 100%" alt="screen sharing instructions screen-shot">
+								<hr>
+								<span class="btn btn-success btn-play btn-lg in proceedBtn">Proceed
+									<span class="fa-stack fa-lg"><i class="fa fa-play fa-stack-1x fa-inverse"></i></span>
+								</span>
+							</div>
+							<div style="color: grey; margin-top: 10px" id="countdown"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal fade" id="ssInstructionDialogAfterSSInit">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header btn-primary" style="padding: 10px;">
+							<span style="font-size: 18px" class="modal-title">Instructions during Screen Sharing with CodeTantra Support</span>
+						</div>
+						<div class="modal-body" style="background: #fcf8e3;">
+							<div>
+								<span style="font-size: 18px">Do NOT close or refresh this tab or window! Otherwise, the Screen Sharing/Audio/Video session with CodeTantra Support team will end.<br>
+								You should now go back to the window or tab you were working previously</span><br>
+								<span style="font-size: 18px">If you want to stop sharing click the button below</span>
+								<div class="make-center"><button class="btn btn-sm btn-primary ml-4" id="stopSharingBtn" onclick="stopScreenSharingBtnClicked()">Stop Sharing</button></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal fade" id="ssInstructionDialogForFaculty">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header btn-primary" style="padding: 10px;">
+							<span style="font-size: 18px" class="modal-title">Instructions during Screen/Audio/Video Sharing with Students</span>
+						</div>
+						<div class="modal-body" style="background: #fcf8e3;">
+							<div>
+								<span style="font-size: 18px">Do NOT close or refresh this tab or window! Otherwise, the Screen Sharing/Audio/Video session with students will end.<br>
+								You should now go back to the window or tab you were working previously</span><br>
+								<span style="font-size: 18px">If you want to stop sharing click the button below</span>
+								<div class="make-center"><button class="btn btn-sm btn-primary ml-4" id="facultyStopSharingBtn" onclick="stopScreenSharingBtnClicked()">Stop Sharing</button></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div>
+				<form id="ssDataForm" method="post" action="/secure/screen-share-permission.jsp" target="ssPermissionWindow">
+					<input type="hidden" name="pId" id="pId" value="" />
+					<input type="hidden" name="pUserid" id="pUserid" value="" />
+					<input type="hidden" name="wId" id="wId" value="" />
+					<input type="hidden" name="wUserid" id="wUserid" value="" />
+					<input type="hidden" name="streamType" id="streamType" value="" />
+					<input type="hidden" name="groupIds" id="groupIds" value="" />
+					<input type="hidden" name="isFacultyBroadcasting" id="isFacultyBroadcasting" value=false />
+				</form>
+			</div>
+	    </div>
+</div>
+<body>
+<div id = 'splitContainersDiv' class="d-none col-8">
+	<div id="splitContainersDivHeader" class="bg-info"></div>
+	<div id="rowPropertyAddition">
+	    <div id="videoContainerOne" class="videosContainer"></div>
+		<div id="audioContainer" class="videosContainer d-none"></div>
+		<div id="videoContainerTwo" class="videosContainer"></div>
+	</div>
+</div>
+<div id="requestor-audio-container" style="display:none;">
+	<!-- local/remote audio container -->
+</div>
+</body>
+
+<script src="/js/custom-min/ss.min.js"></script>
+
+    <div class="container" style="min-width: 100%;">
+        <div id="centerContentDiv" class="row justify-content-center">
+            <div id="homeCenterDiv" class="col-12 col-lg-11">
+                <div id="testsPanelDiv" class="card card-primary darkShadow border-primary"
+                     style="margin-top:30px">
+                    <div class="card-header bg-info p-2" id="">
+                        <div>
+                            <span id="tests" class="card-title font-weight-bold text-white" style="font-size: 31px;padding-left: 15px;">Tests</span>
+                            <div class='float-right' style="padding-right: 9px;margin-top: 3px;margin-bottom: 0;">
+                                <form name='filterTestsForm' id='filterTestsForm' method=get action='tests.jsp'>
+                                    <div class="input-group input-group-sm">
+                                        <div class="input-group-prepend d-block">
+                                            <span class=" input-group-text" id="basic-addon1">Search between : </span>
+                                        </div>
+                                        <input aria-label="start date"
+                                               class="form-control input input-group-text dateTime" id="startDate"
+                                               name="startDate" value='2020/11/11'/>
+                                        <input aria-label="start date"
+                                               class="form-control input input-group-text dateTime" id="endDate"
+                                               name="endDate" value='2020/11/25'/>
+                                        <span class="input-group-append d-block">
+												<b style='text-decoration: none;' onClick="filterTests()"
+                                                   class='searchTestsBtn btn btn-sm btn-success'><i
+                                                        class='fa fa-search'></i> Search</b>
+											</span>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="testsBody" style="font-size: 14px;" class="card-body table-responsive">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <style>
+    html {
+        position: relative;
+        min-height: calc(100vh - 50px);
+    }
+
+    .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 10px;
+        padding-top: 10px;
+        left: 0;
+    }
+</style>
+<div class=" footer">
+    <div id="pageFooterDiv" class=" my-round-border4">
+        <div style="padding: 12px">
+            <div class="" style="text-align: center;">&#169;
+                
+    </div>
+</div>
+</div>
+
+</div>
+
+
+<script src="/js/custom-min/nommoc.min.js"></script>
+<script src="/js/custom-min/th.min.js"></script>
+<script src="/js/custom-min/datediff.min.js"></script>
+<script src="/js/custom-min/crd.min.js"></script>
+<script src="/js/custom-min/ql.min.js"></script>
+
+
+<script>
+    var startDateText = '2020/11/11';
+    var endDateText = '2020/11/25';
+
+    var jsonTestScheduleArr = [ { "_id" : { "$oid" : "5fb52ced25b7f42af2267d34"} , "startTime" : { "$date" : "2020-11-19T07:00:00.000Z"} , "endTime" : { "$date" : "2020-11-19T09:00:00.000Z"} , "preparationTime" : 5 , "entryStopTime" : { "$date" : "2020-11-19T07:30:00.000Z"} , "test" : "5fb52ced25b7f42af2267d33" , "name" : "BTY822_19-11-2020-12:30" , "forceLocationInTest" : false , "environmentCheck" : true , "enforceFullScreenInTest" : true , "ipRestriction" : false , "showResultsBeforeEndTime" : true , "isEnabled" : true , "isHideMainContent" : false , "needEvaluators" : false , "remoteProctoring" : "remoteProctoringWithRecord" , "rpAudio" : true , "rpCam" : true , "rpScreen" : false , "trackBiometrics" : true , "allowExamStartOn" : "ifStreamAvailableOrProctorUnblock" , "rpUsers" : "5f09bce9d2b50c1acb30b893" , "requiresJavaApplet" : false , "isAllowedLanguages" : false , "enableFinishBeforeRemainingTimeLeft" : 5 , "testSrc" : "AMTM5Ml9jdF9jaA==" , "testProfile" : { "test" : "BTY822_19-11-2020-12:30" , "displayName" : "BTY822_19-11-2020-12:30" , "totalTime" : 90 , "totalMarks" : 45 , "passMarks" : 0 , "reviewAllowed" : true , "skippingAllowed" : true , "randomiseQuestions" : true , "randomiseOptions" : false , "enableAutoCompletionOnCodeEditor" : false , "hintsAllowed" : false , "enablePartialMarks" : false , "showHintsOnExceptions" : false , "showTestResult" : false , "showExecutionResults" : false , "enableNegativeMarks" : true , "enableNegativeMarksForFIB" : false , "generalInstructions" : "Read all the instructions carefully\n<br>\n<ol>\n<li>There are <b>45 multiple choice questions</b> spread over <b>6 sections</b> in all</li>\n<li>Each <b>question</b> has a <b>time limit of 2 minutes</b> to complete. If you do not click on Next button within the stipulated time, the test moves on to the next question automatically after saving your current response.</li>\n<li>You can skip a question if you do not know the answer by clicking on the Next button. <span style=\"color:red\">Once you go to next question you can never come back to the previously seen question.</span></li>\n<li>A correctly answered question will score <b>1 mark</b> where as a wrongly answered question will entail <b>negative marks of 0.25 marks</b></li>\n<li>Skipping a question without answering will result in <b>0 marks</b> for that question</li>\n<li>The entire exam is recorded along with all your actions during the exam. </li><li>Do not try to leave the test window during the exam. </li><li>Since this is a proctored exam, you will have to provide permissions to share your location, webcam, microphone (and screen if the proctor demands).</li><li>Make sure to use the <b>latest Chrome browser on Android, Windows, Linux, Mac OS. For iOS devices, only Safari 13 series browser is supported.</b></li></ol>\nClick <b style=\"color:red\">Finish</b> only after completion of the Exam." , "isScheduledTest" : true , "requiresJavaApplet" : false , "endTestOnBlur" : false , "isEnabled" : true , "isMobileAllowed" : true , "isAllowedLanguages" : false , "allowedLanguages" : [ ] , "sectionsArr" : [ { "isEnabled" : true , "questionsArr" : [ { "id" : "5fb3e8126e2e23065f2ee658" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3e82b6e2e23065f2ee683" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3e8516e2e23065f2ee694" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3e8756e2e23065f2ee6b8" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3e89b6e2e23065f2ee6e1" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3e8c16e2e23065f2ee6f8" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3e9046e2e23065f2ee74c" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3e9236e2e23065f2ee77f" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3e9526e2e23065f2ee7ab" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3e9766e2e23065f2ee7c3" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""}] , "id" : 1603870593238 , "marksPerQuestion" : 1 , "closeSectionOnTime" : false , "sectionEndTime" : 0 , "enableNegativeMarks" : true , "enableNegativeMarksOnSkipping" : false , "enableNegativeMarksOnWrongAnswer" : true , "negativeMarksToBeDeducted" : 25 , "enableBonusMarks" : false , "bonusMarks1" : 0 , "bonusMarks1TimeLimit" : 0 , "bonusMarks2" : 0 , "bonusMarks2TimeLimit" : 0 , "enablePartialMarks" : false , "enableNegativeMarksForFIB" : false , "timePerQuestionInSec" : 120 , "displayQuestions" : 5 , "minimumTimePerQuestionInSec" : 5 , "sectionName" : "Unit 1"} , { "isEnabled" : true , "questionsArr" : [ { "id" : "5fb3fc0f6e2e23065f2ef7fe" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3fc3a6e2e23065f2ef82d" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3fc636e2e23065f2ef85f" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3fca66e2e23065f2ef8a8" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3fcd76e2e23065f2ef8d7" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3fcf06e2e23065f2ef8e2" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3fd016e2e23065f2ef8f0" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3fd2e6e2e23065f2ef920" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3fd426e2e23065f2ef92e" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3fd7a6e2e23065f2ef96a" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""}] , "id" : 1603870594946 , "marksPerQuestion" : 1 , "closeSectionOnTime" : false , "sectionEndTime" : 0 , "enableNegativeMarks" : true , "enableNegativeMarksOnSkipping" : false , "enableNegativeMarksOnWrongAnswer" : true , "negativeMarksToBeDeducted" : 25 , "enableBonusMarks" : false , "bonusMarks1" : 0 , "bonusMarks1TimeLimit" : 0 , "bonusMarks2" : 0 , "bonusMarks2TimeLimit" : 0 , "enablePartialMarks" : false , "enableNegativeMarksForFIB" : false , "timePerQuestionInSec" : 120 , "displayQuestions" : 5 , "minimumTimePerQuestionInSec" : 5 , "sectionName" : "Unit 2"} , { "isEnabled" : true , "questionsArr" : [ { "id" : "5fb3fdbd6e2e23065f2ef9ab" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3fded6e2e23065f2ef9ea" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3fe446e2e23065f2efa27" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3fe746e2e23065f2efa5d" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3feb66e2e23065f2efa98" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3fed66e2e23065f2efac8" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3ff2b6e2e23065f2efb0e" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3ff586e2e23065f2efb28" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3ff7a6e2e23065f2efb3d" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3ffa36e2e23065f2efb7b" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""}] , "id" : 1603870596164 , "marksPerQuestion" : 1 , "closeSectionOnTime" : false , "sectionEndTime" : 0 , "enableNegativeMarks" : true , "enableNegativeMarksOnSkipping" : false , "enableNegativeMarksOnWrongAnswer" : true , "negativeMarksToBeDeducted" : 25 , "enableBonusMarks" : false , "bonusMarks1" : 0 , "bonusMarks1TimeLimit" : 0 , "bonusMarks2" : 0 , "bonusMarks2TimeLimit" : 0 , "enablePartialMarks" : false , "enableNegativeMarksForFIB" : false , "timePerQuestionInSec" : 120 , "displayQuestions" : 5 , "minimumTimePerQuestionInSec" : 5 , "sectionName" : "Unit 3"} , { "isEnabled" : true , "questionsArr" : [ { "id" : "5fb384de52e56a06643cf673" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb386f152e56a06643cfe20" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3873052e56a06643cfef8" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3875852e56a06643cff1e" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3879752e56a06643d00f4" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb387b852e56a06643d0127" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb387f252e56a06643d020e" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3881752e56a06643d0352" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3885252e56a06643d03a6" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb38a3852e56a06643d1015" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb38a6852e56a06643d11ad" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb38a8052e56a06643d11ec" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb38a9252e56a06643d1401" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb38aab52e56a06643d1445" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb38adc52e56a06643d15d8" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""}] , "id" : 1603870602881 , "marksPerQuestion" : 1 , "closeSectionOnTime" : false , "sectionEndTime" : 0 , "enableNegativeMarks" : true , "enableNegativeMarksOnSkipping" : false , "enableNegativeMarksOnWrongAnswer" : true , "negativeMarksToBeDeducted" : 25 , "enableBonusMarks" : false , "bonusMarks1" : 0 , "bonusMarks1TimeLimit" : 0 , "bonusMarks2" : 0 , "bonusMarks2TimeLimit" : 0 , "enablePartialMarks" : false , "enableNegativeMarksForFIB" : false , "timePerQuestionInSec" : 120 , "displayQuestions" : 10 , "minimumTimePerQuestionInSec" : 5 , "sectionName" : "Unit 4"} , { "isEnabled" : true , "questionsArr" : [ { "id" : "5fb3af3c52e56a06643d8841" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3af5f52e56a06643d8857" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3af7552e56a06643d88a4" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3af9152e56a06643d88ba" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3afc952e56a06643d8979" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3b02752e56a06643d8a27" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3b04552e56a06643d8a3c" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3b06752e56a06643d8a8c" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3b08852e56a06643d8a97" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3b0a99ab26e06617f3ad6" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3b0c29ab26e06617f3b3d" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3b0e39ab26e06617f3bb8" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3b0fe9ab26e06617f3c2e" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3b1239ab26e06617f3ce3" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3b1459ab26e06617f3d52" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""}] , "id" : 1603870606423 , "marksPerQuestion" : 1 , "closeSectionOnTime" : false , "sectionEndTime" : 0 , "enableNegativeMarks" : true , "enableNegativeMarksOnSkipping" : false , "enableNegativeMarksOnWrongAnswer" : true , "negativeMarksToBeDeducted" : 25 , "enableBonusMarks" : false , "bonusMarks1" : 0 , "bonusMarks1TimeLimit" : 0 , "bonusMarks2" : 0 , "bonusMarks2TimeLimit" : 0 , "enablePartialMarks" : false , "enableNegativeMarksForFIB" : false , "timePerQuestionInSec" : 120 , "displayQuestions" : 10 , "minimumTimePerQuestionInSec" : 5 , "sectionName" : "Unit 5"} , { "isEnabled" : true , "questionsArr" : [ { "id" : "5fb3b57f9ab26e06617f4d6a" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3b5b19ab26e06617f4da2" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3b5c59ab26e06617f4dbb" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3b5df9ab26e06617f4dc6" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3b5f49ab26e06617f4dd0" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3b6169ab26e06617f4de2" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3b63a9ab26e06617f4df7" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3b65e9ab26e06617f4e08" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3b66f9ab26e06617f4e12" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3b6979ab26e06617f4e24" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3b6b79ab26e06617f4e2a" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3b6ce9ab26e06617f4e36" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3b6e39ab26e06617f4e49" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3b70a9ab26e06617f4e5b" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""} , { "id" : "5fb3b72f9ab26e06617f4e6f" , "questionType" : "549b4ce80e08f22e46dbf9cd" , "src" : "1392_ct_ch" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : ""}] , "id" : 1603870607758 , "marksPerQuestion" : 1 , "closeSectionOnTime" : false , "sectionEndTime" : 0 , "enableNegativeMarks" : true , "enableNegativeMarksOnSkipping" : false , "enableNegativeMarksOnWrongAnswer" : true , "negativeMarksToBeDeducted" : 25 , "enableBonusMarks" : false , "bonusMarks1" : 0 , "bonusMarks1TimeLimit" : 0 , "bonusMarks2" : 0 , "bonusMarks2TimeLimit" : 0 , "enablePartialMarks" : false , "enableNegativeMarksForFIB" : false , "timePerQuestionInSec" : 120 , "displayQuestions" : 10 , "minimumTimePerQuestionInSec" : 5 , "sectionName" : "Unit 6"}] , "acl" : { "editors" : [ "5f0afe331f66b70c35086dc9"]} , "updatedBy" : "tomesh@codetantra.com" , "updatedTime" : { "$date" : "2020-11-17T10:31:10.762Z"} , "createdTime" : { "$date" : "2020-10-28T07:35:50.350Z"} , "createdBy" : "tomesh@codetantra.com" , "draft" : false , "endTimeBasedOnQuestion" : true , "virtualSectionsArr" : [ ] , "_id" : { "$oid" : "5fb52ced25b7f42af2267d33"} , "src" : "1392_ct_ch" , "id" : "5fb52ced25b7f42af2267d33" , "endTestOnBlurCount" : 0 , "navigationOutCountDown" : 45 , "considerAsNavigatedAfter" : 15 , "endTestOnResumeAfterPause" : false , "endTestOnResumeAfterPauseCount" : 0 , "allowFileUploadFromSecondaryDevice" : false , "allowPastingWithinTheEditor" : false , "includeClearResponse" : true , "showGeneralInstructionsInTest" : false , "showQuestionPaperInTest" : false , "scheduleForGateTest" : false , "disabledFinishUptoEndTime" : true , "fileUploadOptions" : "camera" , "enableFinishBeforeRemainingTimeLeft" : 5 , "disablePrevious" : true , "enableMarkForReview" : false} , "allowedLanguages" : [ ] , "procVsUsers" : [ { "proctorId" : "5f09bce9d2b50c1acb30b893" , "userIds" : [ "5f5755d55ce46c643da65b08" , "5f43bf172c940e0c1b468f8e" , "5f43a2072c940e0c1b46079f" , "5f5899be5ce46c0452204ace" , "5f5754845ce46c643da62edb" , "5f43a15d2c940e0c1b45db1f" , "5f43be6e2c940e0c1b4677aa" , "5f43a22d2c940e0c1b462771" , "5f43be852c940e0c1b4689d3" , "5f5754885ce46c643da63c24" , "5f5899ca5ce46c0452206c49" , "5f43a1772c940e0c1b45f1c4" , "5f5899c45ce46c0452205b4e" , "5f5754865ce46c643da63508" , "5f43a1742c940e0c1b45eee4" , "5f43a1642c940e0c1b45e17f" , "5f3558355819cc0c586d9c8c" , "5f43a1652c940e0c1b45e283" , "5f5752fc5ce46c643da608f5" , "5f5754825ce46c643da62a38" , "5f5899c45ce46c0452205ca6"]}] , "scheduleId" : "4168" , "updatedTime" : { "$date" : "2020-11-18T14:17:17.842Z"} , "externalId" : "ETT20211_BTY822_19 Nov 2020_A" , "__bulk" : "tomesh@codetantra.com at Wed Nov 18 14:17:17 UTC 2020" , "__bulk_pa" : "tomesh@codetantra.com at Wed Nov 18 16:56:31 UTC 2020" , "updateTime" : { "$date" : "2020-11-18T16:56:31.585Z"} , "src" : "AMTM5Ml9jdF9jaA=="}];
+    var userTestSummaryDBObjArr = [];
+    var userTestSummaryDBObjMap = getTestIdScheduleIdMap(userTestSummaryDBObjArr);
+
+    var serverDateTime = new Date(1605724242765);
+    $(document).ready(function () {
+        genSections();
+        var $startDate = $('#startDate');
+        if ($startDate.is(":visible")) {
+            $('.dateTime').datetimepicker({
+                timepicker: false,
+                format: 'Y/m/d'
+            });
+            $startDate.val(startDateText);
+            $('#endDate').val(endDateText);
+        }
+    });
+
+    function getTestIdScheduleIdMap(arr) {
+        var map = {};
+        $.each(arr, function (idx, entry) {
+            map[entry.testId + "-" + entry.scheduleId] = entry;
+        });
+        return map;
+    }
+
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }
+        i[r].l = 1 * new Date();
+        a = s.createElement(o);
+        m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-21208757-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+</body>
+</html>
